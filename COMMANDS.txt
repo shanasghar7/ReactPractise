@@ -4,9 +4,14 @@ npm i webpack webpack-cli
 
 npm i webpack webpack-cli -d 
 
+// For React and React DOM
 npm i react react-dom  
 
+// For live reloading
+npm install webpack-dev-server --save-dev
+
 npm start
+npm run dev
 
 // GIT
 
@@ -20,7 +25,7 @@ git add .
 git commit -m "created repository"
 
 // Only First Time
-git remote add origin https://github.com/shanasghar7/BuildYourResume.git
+git remote add origin https://github.com/shanasghar7/ReactPractise.git
 
 git push -u origin master
 git push
@@ -31,7 +36,7 @@ git pull
 git checkout Shan
 
 // Clones to project files to local
-git clone https://github.com/shanasghar7/BuildYourResume.git
+git clone https://github.com/shanasghar7/ReactPractise.git
 
 // Get Info about branches etc
 git status
