@@ -1,0 +1,37 @@
+npm init -y    
+
+npm i webpack webpack-cli    
+
+npm i webpack webpack-cli -d 
+
+npm i react react-dom  
+
+npm start
+
+// GIT
+
+git init
+
+// Only First Time
+git config --global user.email "shanasghar7@gmail.com"
+git config --global user.name "Shan"
+
+git add .
+git commit -m "created repository"
+
+// Only First Time
+git remote add origin https://github.com/shanasghar7/BuildYourResume.git
+
+git push -u origin master
+git push
+
+git pull
+
+// Switch Branch
+git checkout Shan
+
+// Clones to project files to local
+git clone https://github.com/shanasghar7/BuildYourResume.git
+
+// Get Info about branches etc
+git status
